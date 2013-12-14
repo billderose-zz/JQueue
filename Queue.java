@@ -37,7 +37,7 @@ public class Queue<V> {
 			}
 		}
 		V val = queue[head];
-        queue[head] = null;
+                queue[head] = null;
 		if (++head == queue.length) {
 			head = 0;
 		}
